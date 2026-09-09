@@ -1,22 +1,3 @@
-"""
-====================================================================
- LOGICA: LISTA DOBLEMENTE ENLAZADA
- Ejemplo de la vida real: PLAYLIST DE MUSICA (tipo Spotify)
-====================================================================
-
-Este archivo SOLO contiene la estructura de datos. No sabe nada de
-tkinter ni de consola: por eso lo pueden usar tanto gui.py como
-consola.py sin duplicar codigo.
-
-Por que lista DOBLEMENTE enlazada?
-Porque un reproductor de musica necesita moverse en AMBAS direcciones:
-boton "siguiente" (>>) y boton "anterior" (<<). Cada cancion conoce
-a la de antes y a la de despues.
-
-    None <- [Cancion1] <-> [Cancion2] <-> [Cancion3] -> None
-"""
-
-
 # --------------------------------------------------------------
 # 1. NODO: una cancion dentro de la playlist.
 #    Un nodo siempre es lo mismo: DATOS + REFERENCIAS a sus vecinos.
